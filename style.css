@@ -9,6 +9,25 @@ body {
     font-weight: 400;
 }
 
+
+
+/*
+ BARVY
+ svetle sede pozadi      #f5f5f5
+ tmavsi seda             #959595
+ barevny prechod nahore  #06d7c1
+ barevny prechod dole    #50cc49
+ zelena cara             #06d7c1
+ oranzova                #f15f42
+
+ PISMO
+ Rubik - pouzite rezy pisma regular 400 a medium 500
+ https://fonts.google.com/specimen/Rubik
+*/
+
+/* ----- zde zacni psat vlastni css ----- */
+
+
 .logo {
     padding-top: 30px;
     padding-left: 30px;
@@ -54,7 +73,7 @@ body {
 }
 
 .produkt {
-    color: rgb(190, 179, 179);
+    color: #959595;
     padding-left: 30px;
 }
 
@@ -129,26 +148,10 @@ body {
 
 .zbozi {
     display: flex;
-    background-color: white;
+    background-color: #f5f5f5;
     box-shadow: 0px 3px 7px -6px rgba(0,0,0,0.75);
     width: 670px;
     margin-left: 80px;
     height: 440px;
 
 }
-
-/*
- BARVY
- svetle sede pozadi      #f5f5f5
- tmavsi seda             #959595
- barevny prechod nahore  #06d7c1
- barevny prechod dole    #50cc49
- zelena cara             #06d7c1
- oranzova                #f15f42
-
- PISMO
- Rubik - pouzite rezy pisma regular 400 a medium 500
- https://fonts.google.com/specimen/Rubik
-*/
-
-/* ----- zde zacni psat vlastni css ----- */
