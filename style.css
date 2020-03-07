@@ -4,6 +4,137 @@ html { box-sizing: border-box; }
 
 body {
     text-rendering: optimizeLegibility;
+    font-family: 'Rubik', sans-serif;
+    font-size: 14px;
+    font-weight: 400;
+}
+
+.logo {
+    padding-top: 30px;
+    padding-left: 30px;
+}
+
+.slogan {
+    font-size: 16px;
+    font-weight: 500;
+    color: beige;
+    padding-left: 30px;
+    margin-top: 30px;
+}
+
+.bota {
+    position: relative;
+    right: 80px;
+}
+
+.cena {
+    position: relative;
+    bottom: 75px;
+    font-size: 28px;
+    font-weight: 500;
+    text-align: right;
+    padding-right: 30px;
+    color: white;
+}
+
+.zaruka {
+    position: relative;
+    bottom: 75px;
+    font-size: 12px;
+    font-weight: 400;
+    text-align: right;
+    margin-right: 30px;
+    color: white;
+}
+
+.nazev {
+    font-size: 20px;
+    font-weight: 500;
+    padding-left: 30px;
+}
+
+.produkt {
+    color: rgb(190, 179, 179);
+    padding-left: 30px;
+}
+
+.popis {
+    margin-left: 30px;
+    border-bottom: 1px solid #06d7c1;
+    padding-bottom: 30px;
+    border-spacing: 50px;
+    margin-right: 30px;
+}
+
+/* VELIKOST */
+.parametr {
+    font-weight: 500;
+    margin-top: 30px;
+    margin-left: 30px;
+    text-transform: uppercase;
+
+
+}
+
+.velikosti {
+    display: flex;
+    justify-content: space-evenly;
+    font-size: 15px;
+    /* padding-right: 60px; */
+
+}
+/* zbavime se kolecek  */
+.velikosti li {
+    list-style: none;
+}
+
+.vybrana {
+    color: #f15f42 ;
+    border: #f15f42 solid 1px;
+    border-radius: 50%;
+    box-shadow: 0px 0px 0px 1px #fff ;
+}
+
+.akce {
+    /* background-color: #f15f42;  */
+    margin-top: 85px;
+}
+
+.tlacitko {
+    background-color: #f15f42; 
+    border: none;
+    border-radius: 8px;
+    color: white;
+    padding: 14px 31px;
+    text-align: center;
+    text-decoration: none;
+    display: inline-block;
+    margin-left: 30px;
+    text-transform: uppercase;
+
+}
+
+
+.vizual {
+    background-image: linear-gradient(#06d7c1,#50cc49) ;
+    border-radius: 15px 0 0 15px;
+    width: 335px;
+}
+
+.detaily {
+    width: 335px;
+}
+
+
+
+.zbozi {
+    display: flex;
+    background-color: white;
+    box-shadow: 0px 3px 7px -6px rgba(0,0,0,0.75);
+    width: 670px;
+    margin-left: 80px;
+    height: 440px;
+
 }
 
 /*
